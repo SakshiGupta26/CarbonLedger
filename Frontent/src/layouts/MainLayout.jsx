@@ -7,11 +7,8 @@ import Input from "../components/Input/Input";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-2 p-2 bg-black">
       <Navbar />
-      <Input placeholder={"Product"}/>
-      <Card />
-      
       <Outlet />
       <Footer />
     </div>
