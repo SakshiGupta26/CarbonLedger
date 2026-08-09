@@ -25,9 +25,14 @@ const Marketplace = () => {
           <Dropdown />
         </div>
       </div>
-
       <div>
-        <Card />
+      <div className='flex justify-between gap-4 p-4'>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      </div>
+
       </div>
     </div>
   )
