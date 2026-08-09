@@ -38,7 +38,6 @@ const ProblemSolution = () => {
           <div>
             <h1 className='text-white text-2xl font-bold'>
               The Problem:
-              <br />
               Double-Counting
             </h1>
 
@@ -103,7 +102,6 @@ const ProblemSolution = () => {
 
         <div className='flex justify-between gap-6 mt-8'>
 
-          {/* Transparent */}
           <div className='flex flex-col gap-2'>
             <div className='flex items-center gap-2'>
               <Eye
