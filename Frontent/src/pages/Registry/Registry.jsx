@@ -1,5 +1,8 @@
 import React from 'react'
 import Table from '../../components/Table/Table'
+import RegistryFilters from '../../features/registry/components/RegistryFilters'
+import Input from '../../components/Input/Input'
+import GlobalRegistry from '../../features/registry/components/GlobalRegistry'
 
 const columns = [
   {
@@ -53,12 +56,41 @@ const data = [
 
 const Registry = () => {
   return (
-    <div className="bg-[#0f1512] p-6">
-      <Table
-        colums={columns}
-        data={data}
-        size="md"
-      />
+    <div className="flex w-full">
+
+      {/* Sidebar */}
+      <aside className="w-56 shrink-0 px-5 py-8 border-r border-[#3c4a42] min-h-screen">
+        <RegistryFilters />
+      </aside>
+
+
+      {/* Main Content */}
+      <main className="flex-1 px-10 py-8">
+
+        {/* Search */}
+        <div className="w-full mb-10">
+          <Input placeholder="Search registry..." />
+        </div>
+
+
+        {/* Global Registry */}
+        <div className="w-full">
+          <GlobalRegistry />
+        </div>
+
+
+        {/* Table */}
+        <div className="w-full mt-8">
+
+          <Table
+            columns={columns}
+            data={data}
+          />
+
+        </div>
+
+      </main>
+
     </div>
   )
 }

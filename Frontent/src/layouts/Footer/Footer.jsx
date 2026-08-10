@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="flex items-center gap-4 text-[#bbcabf] font-medium">
+      <div className="flex items-center gap-6 text-[#bbcabf] font-medium">
         <NavLink
           to="/terms"
           className="hover:text-[#10B981] transition-colors"
