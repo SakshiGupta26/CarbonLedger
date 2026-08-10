@@ -24,11 +24,10 @@ function Table({
   const styles = sizeStyles[size] || sizeStyles.md
 
   return (
-    <div className="w-full overflow-hidden rounded-xl border border-[#3c4a42] bg-[#171d1a]">
+    <div className=" overflow-hidden rounded-xl border border-[#3c4a42] bg-[#171d1a] m-4">
 
       <table className="w-full border-collapse">
 
-        {/* Table Header */}
         <thead>
           <tr className="border-b border-[#3c4a42] bg-[#0f1512]">
 
@@ -50,8 +49,6 @@ function Table({
           </tr>
         </thead>
 
-
-        {/* Table Body */}
         <tbody>
 
           {data.length > 0 ? (

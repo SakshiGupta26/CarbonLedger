@@ -58,28 +58,21 @@ const Registry = () => {
   return (
     <div className="flex w-full">
 
-      {/* Sidebar */}
       <aside className="w-56 shrink-0 px-5 py-8 border-r border-[#3c4a42] min-h-screen">
         <RegistryFilters />
       </aside>
 
-
-      {/* Main Content */}
       <main className="flex-1 px-10 py-8">
 
-        {/* Search */}
         <div className="w-full mb-10">
           <Input placeholder="Search registry..." />
         </div>
 
 
-        {/* Global Registry */}
         <div className="w-full">
           <GlobalRegistry />
         </div>
 
-
-        {/* Table */}
         <div className="w-full mt-8">
 
           <Table
