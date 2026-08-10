@@ -15,11 +15,11 @@ const PortfolioHeader = () => {
   return (
     <div className="grid grid-cols-3 gap-6 p-2">
 
-      <div className="bg-[#171d1a] border border-[#3c4a42] rounded-xl p-6">
+      <div className="bg-[#171d1a] shadow-xl/30 shadow-cyan-500/50  border border-[#3c4a42] rounded-xl p-6">
 
-        <div className="flex flex-col items-center gap-5">
+        <div className="flex flex-col  items-center gap-5">
 
-          <div className="w-40 h-40 bg-[#123c2c] rounded-full flex items-center justify-center">
+          <div className="w-40 h-40  bg-[#123c2c] rounded-full flex items-center justify-center">
 
             <User
               size={90}
@@ -42,10 +42,10 @@ const PortfolioHeader = () => {
 
           <div className="w-full flex items-center justify-between bg-[#0f1512] border border-[#3c4a42] rounded-lg px-4 py-3">
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-4">
 
               <Dot
-                size={20}
+                size={30}
                 className="text-[#10B981]"
               />
 

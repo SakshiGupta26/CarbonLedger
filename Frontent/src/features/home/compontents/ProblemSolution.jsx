@@ -10,7 +10,7 @@ import {
 
 const ProblemSolution = () => {
   return (
-    <div className="w-full p-8 flex flex-col items-center">
+    <div className="w-full p-8 flex flex-col items-center ">
 
       <div className="flex flex-col justify-center items-center text-center w-full max-w-3xl mb-10 px-4 p-8">
 
@@ -30,7 +30,7 @@ const ProblemSolution = () => {
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4">
 
-        <div className="bg-[#171d1a] border border-[#3c4a42] rounded-2xl p-5 sm:p-6 hover:border-red-500/40 transition-all duration-300">
+        <div className="bg-[#171d1a] border border-[#3c4a42] rounded-2xl p-5 sm:p-6 shadow-xl/30 shadow-cyan-500/50  hover:border-red-500/40 transition-all duration-300">
 
           <div className="flex items-start gap-4">
 
@@ -87,7 +87,7 @@ const ProblemSolution = () => {
         </div>
 
 
-        <div className="bg-[#123c2c] border border-[#1f6047] text-white rounded-2xl p-5 sm:p-6 hover:border-[#10B981]/60 transition-all duration-300">
+        <div className="bg-[#123c2c] border border-[#1f6047] shadow-xl/30 shadow-cyan-500/50  text-white rounded-2xl p-5 sm:p-6 hover:border-[#10B981]/60 transition-all duration-300">
 
           <div className="flex items-start gap-4">
 

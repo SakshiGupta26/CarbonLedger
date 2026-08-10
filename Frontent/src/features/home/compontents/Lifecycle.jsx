@@ -7,7 +7,7 @@ import {
 
 const Lifecycle = () => {
   return (
-    <div className='bg-[#0f1512] text-white px-10 py-12'>
+    <div className='bg-[#0f1512] text-white px-10 py-16 m-2 shadow-xl/30 shadow-cyan-500/50 '>
 
       <h1 className='text-3xl font-bold text-center mb-10'>
         The Lifecycle of a Digital Credit
@@ -15,7 +15,7 @@ const Lifecycle = () => {
 
       <div className='flex justify-between gap-10'>
 
-        {/* Tokenize */}
+       
         <div className='flex-1 flex flex-col items-center text-center gap-3'>
 
           <div className='w-16 h-16 flex items-center justify-center bg-[#171d1a] text-[#10B981] rounded-xl border border-[#3c4a42] hover:bg-[#10B981] hover:text-[#0f1512] transition'>

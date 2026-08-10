@@ -4,7 +4,7 @@ import Button from '../ui/Button/Button'
 
 const Card = () => {
   return (
-    <div className="w-80 bg-[#0f1512] border border-[#3c4a42] rounded-xl overflow-hidden">
+    <div className="w-80 bg-[#0f1512]  shadow-xl/30 shadow-cyan-400/50  border border-l-2 border-[#3c4a42] rounded-xl overflow-hidden">
 
    
       <div className="relative">
